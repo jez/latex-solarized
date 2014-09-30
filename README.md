@@ -42,6 +42,10 @@ There are some examples in the [examples/](examples) folder.
 
 When using the dark theme, if the line spacing isn't quite right, you will get thin lines of from the page background showing between the lines of the listing. There are some solutions outlined [here][lines], but none were easily incorporated into this package.
 
+## License
+
+MIT License. See [LICENSE](LICENSE).
+
 [solarized]: http://ethanschoonover.com/solarized
 [colors]: solarized.sty
 [symlinks]: https://kb.iu.edu/d/abbe
