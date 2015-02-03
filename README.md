@@ -11,7 +11,7 @@ First off, fork and clone (or simply clone) the repository:
 $ git clone https://github.com/<your-username>/latex-solarized.git
 
 # If you didn't
-$ git clone https://github.com/Z1MM32M4N/latex-solarized.git
+$ git clone https://github.com/jez/latex-solarized.git
 ```
 
 This is entirely up to you, but I like to keep all my LaTeX files in one place, a folder called `~/programming/LaTeX/`, so I'd clone into this folder. You should choose a location that make sense to you.
