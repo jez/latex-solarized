@@ -24,6 +24,8 @@ LaTeX package files need to be placed in a machine-dependent location in order f
 
 Within the folder returned by `kpeswhich`, you'll need to create the folder `tex/latex/`, and then create the links with `ln -s <path-to-your-clone>/*sty tex/latex/`.
 
+If your LaTeX environment still won't recognize the new packages, you may have to run `texhash`.
+
 __Note__: the following example uses a) the path where I personally installed latex-solarized, and b) the command `tree` which just lists directory contents. This command might not be available, but it's not necessary.
 
 ![Installation](images/installation.png)
