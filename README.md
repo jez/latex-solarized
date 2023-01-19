@@ -22,7 +22,7 @@ Next up, we need to tell LaTeX where it can find the files we just cloned. Norma
 
 LaTeX package files need to be placed in a machine-dependent location in order for them to be usable with `\usepackage{}`. This location varies, but you can use the command `kpsewhich -var-value=TEXMFHOME` to figure out what the root folder is for your machine. If this command didn't work, you might have a non-standard installation of LaTeX. [Check here][latex-packages] for more help.
 
-Within the folder returned by `kpeswhich`, you'll need to create the folder `tex/latex/`, and then create the links with `ln -s <path-to-your-clone>/*sty tex/latex/`.
+Within the folder returned by `kpsewhich`, you'll need to create the folder `tex/latex/`, and then create the links with `ln -s <path-to-your-clone>/*sty tex/latex/`.
 
 If your LaTeX environment still won't recognize the new packages, you may have to run `texhash`.
 
